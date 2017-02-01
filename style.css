@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+html, body {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 30px ;
+  font-family: 'Orbitron', sans-serif;
+}
+
+img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+#image-box {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#title {
+  font-size: 50px;
+  magin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Lobster;
+}
+
+#signature {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#header, #take-action {
+  display: flex;
+  justify-content: center;
+}
+
+#pomodoro, #break {
+  display: inline;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#work-title, #break-title {
+  font-weight: 600;
+}
+
+#pomodoro.selected, #break.selected {
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+}
+
+#pom-minutes, #break-minutes {
+  font-size: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#pom-minus, #pom-plus, #break-minus, #break-plus {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #333;
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 30px;
+}
+
+#pom-minus:hover, #pom-plus:hover, #break-minus:hover, #break-plus:hover {
+  background-color: #686565;
+}
+
+#start-stop, #reset {
+  display: inline;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.start {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #0c7230;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.stop {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #770f0f;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.stop:hover {
+  background-color: #540707;
+}
+
+.start:hover {
+  background-color: #045621;
+}
+
+#reset {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #770f0f;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#reset:hover {
+  background-color: #540707;
+}
+
+.box {
+  display: table; 
+  margin: auto;
+}
+
+#countdown {
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  height: 150px;
+  color: #333;
+  font-weight: 600;
+  font-size: 60px;
+  background-color: #b7bcb9;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-right-color: #262827;
+  border-bottom-color: #262827;
+  border-radius: 2%;
+  box-shadow: 5px 5px 10px #262827; 
+}
+
+#take-action {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
